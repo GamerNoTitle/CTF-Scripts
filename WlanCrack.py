@@ -152,5 +152,8 @@ if __name__ == '__main__':
             else:
                 print(f'Start cracking {path} with dictionary {dictionary}')
                 CrackWithDict(path, dictionary)
+        if Input == '9':
+            os.system('apt update')
+            os.system('apt install aircrack-ng -y')
         if Input == 'q':
             os._exit(0)
