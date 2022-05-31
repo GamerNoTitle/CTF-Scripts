@@ -63,6 +63,7 @@ help_msg = '''{:=^80}
 [2] Dump wlan status
 [3] Capture heartbeat packet
 [4] Crack the packet with a dictionary
+[9] Install aircrack-ng (If you haven\'t install it on your computer)
 [q] Exit
 {:=^80}
 '''.format(' Aircrack-Ng Script ', ' Made by GamerNoTitle ')
