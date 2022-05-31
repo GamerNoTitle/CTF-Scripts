@@ -1,0 +1,7 @@
+// Option 1, create an new account  which will be used to deploy the contract, address&code storaged in account.txt;
+// Option 2, deploy the target contract which is vulnerabile to attack, the target contract address is storaged in hackMe_contractAddress.txt;
+// Option 3, deploy your attack contract, this step will not provide;
+// Option 4, check whether your attack successed, get your flag.
+// Option 5, check your account balance;
+// Option 6, check source code: 'Lib.sol', 'HackMe.sol' 
+// You can finish this challenge in a lot of connections.

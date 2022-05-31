@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>在线ssl证书生成</title>
+  <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+<div class="container">
+  <form id="contact" action="/getcrt" method="post">
+    <h3>Online cer generation</h3>
+    <h4>Submit your information</h4>
+    <fieldset>
+      <input placeholder="Your Country" name="Country" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Province" name="Province" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your City" name="City" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your OrganizationalName" name="OrganizationalName" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Name" name="CommonName" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" name="EmailAddress" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+
+
+</div>
+
+</body>
+</html>
